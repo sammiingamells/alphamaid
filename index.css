@@ -238,7 +238,7 @@ margin:0;
 
 .pic1 {
  display:block;
- width:85%;
+ width:100%;
  margin:0;
  padding-left:0;
 
@@ -246,7 +246,7 @@ margin:0;
 .contact .text{
         padding-right:400px;
         text-align: left;
-        max-width: 30%; /* Set the width of the positioned div */
+        max-width: 85%; /* Set the width of the positioned div */
         color:white;
         display:block;
         list-style: none;
@@ -345,7 +345,7 @@ margin:0;
 
 .pic1 {
   display:block;
- width:85%;
+ width:100%;
 
  margin:0;
  padding-left:0;
@@ -381,7 +381,7 @@ margin:0;
         padding: 0;
         text-align: left;
         padding-right:300px;
-        width: 50%; /* Set the width of the positioned div */
+        width: 100%; /* Set the width of the positioned div */
         color:white;
         list-style: none;
 }
