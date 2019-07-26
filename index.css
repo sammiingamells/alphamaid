@@ -1,0 +1,381 @@
+@font-face {
+    font-family: 'kensmark' ;
+    src: url(Kensmark-03-Bold.otf);
+}
+@import url('https://fonts.googleapis.com/css?family=Aldrich|Covered+By+Your+Grace|Permanent+Marker|Roboto+Mono&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Covered+By+Your+Grace&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Oswald&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Roboto+Mono:500&display=swap');
+
+body {
+  width: 3500px;
+  padding: 0;
+  margin: 0;
+  height: 600px;
+  overflow-y: hidden;
+  margin: 0 auto;
+  background-color:rgba(0, 0, 0, 0.6);
+  /*background-color: rgba(255, 255, 255, 1);*/
+
+  
+  z-index: 100;
+ 
+}
+
+h1 {
+   font-family: 'Roboto Mono', monospace;
+    font-weight: 400;
+    text-decoration: underline;
+    padding-left:200px;
+    padding-top:75px;
+    font-size: 300%;
+    letter-spacing: 2px;
+    opacity:1;
+   
+    color:black;
+    
+}
+
+/*button {
+  position: fixed;
+}*/
+.videos {
+    display:inline;
+    border-top: 200px;
+    padding-left:200px;
+    padding-top:300px;
+ 
+
+   
+    
+  
+}
+
+iframe {
+    border:0px hidden;
+    padding-top:0px;
+    padding-bottom:0px;
+   box-shadow: 5px 5px 10px;
+
+   
+    
+    
+}
+
+#vid1 {
+    
+   
+    display: inline;
+    padding-left:0px;
+    padding-right:100px;
+
+    
+  
+}
+
+#vid2 {
+  
+    display: inline;
+    padding-left:100px;
+    padding-right:100px;
+    padding-top:100px;
+}
+
+#ep {
+   
+    display: inline;
+    padding-left:100px;
+    padding-right:100px;
+    padding-top:100px;
+}
+
+.contact {
+    display: inline;
+    
+    overflow: hidden;
+   
+    padding-left:150px;
+    padding-right: 100px;
+    background-repeat: no-repeat;
+    position: absolute;
+  
+  
+    
+}
+
+.pic1 {
+ box-shadow: 5px 5px 10px;
+}
+ a {
+  color:white;
+ }
+
+ .contact .text{
+        position: absolute;
+        z-index: 999;
+        margin: 0 auto;
+        left: 0;
+        right: 0;
+        top: 30%; /* Adjust this value to move the positioned div up and down */
+        text-align: center;
+        width: 50%; /* Set the width of the positioned div */
+        color:white;
+        list-style: none;
+        padding-bottom: 10px;
+    }
+    
+
+#alpha {
+    font-family: 'Roboto Mono', monospace;
+    font-weight: 400;
+    text-decoration: underline;
+    font-size: 30px;
+    padding-bottom: 7%;
+    
+}
+
+#email, #soundcloud {
+    color:white;
+    text-decoration: none;
+}
+
+#email, .fb-inst, #soundcloud {
+    font-family: 'Roboto Mono', monospace;
+    font-weight: 200;
+    font-size: 20px;
+    padding-bottom: 5%;
+}
+
+.fb-inst .hover {
+    opacity:0.5;
+}
+
+@media screen and (max-width: 768px) {
+ body {
+  width:768px;
+  margin:0;
+  padding:0;
+  overflow-x: hidden;
+  overflow-y: scroll;
+ 
+ }
+ 
+ h1 {
+  padding-left:5%;
+  font-size: 200%;
+  padding-bottom: 5%;
+  
+ }
+ 
+ #alpha {
+
+ float:left;
+ text-align:left;
+ padding-left:0;
+ }
+ 
+ #email {
+ float:left; 
+ text-align:left;
+ font-size:100%;
+ }
+ 
+ #soundcloud {
+  text-align: left;
+  
+ }
+ 
+ iframe {
+  width:100%;
+
+
+
+ }
+ 
+.videos {
+ display:block;
+ width:85%;
+ padding-top:0;
+ padding-left:5%;
+ 
+}
+
+#vid1 {
+ display:block;
+ width:85%;
+ margin:0;
+ padding-left:0
+ padding-bottom:5%;
+ 
+
+}
+
+#vid2 {
+ display:block;
+ width:85%;
+ margin:0;
+ padding-left:0;
+ padding-bottom:5%;
+ 
+}
+
+#ep {
+ display:block;
+width:85%;
+padding-left:0;
+padding-bottom: 5%;
+margin:0;
+}
+
+.contact {
+ display:block;
+ width:85%;
+ margin:0;
+ padding-left:0;
+ padding-top:5%;
+ padding-bottom:2%;
+ 
+}
+
+.pic1 {
+ width:85%;
+}
+.contact .text{
+        padding:0;
+        text-align: left;
+        width: 50%; /* Set the width of the positioned div */
+        color:white;
+        display:block;
+        list-style: none;
+        padding-bottom: 10px;
+    }
+    
+#alpha {
+width:85%;
+  
+ display:block;
+ float:left;
+ text-align:left;
+ padding-left:0;
+ }
+ 
+ #email {
+ float:left; 
+ text-align:left;
+ width:85%;
+ display:block;
+ font-size:100%;
+ }
+ 
+ #soundcloud {
+  width:85%;
+  
+  display:block;
+  text-align:left;
+  padding-left:0;
+  
+ }
+ 
+}
+
+@media screen and (max-width: 500px) {
+ body {
+  width:500px;
+  margin:0;
+  padding:0;
+  overflow-x: hidden;
+  overflow-y: scroll;
+ 
+ }
+ 
+ h1 {
+  padding-left:5%;
+  font-size: 200%;
+  padding-bottom: 5%;
+  
+ }
+ 
+ iframe {
+  width:100%;
+
+ }
+ 
+.videos {
+ display:block;
+ width:85%;
+ padding-top:0;
+ padding-left:5%;
+
+ 
+}
+
+#vid1 {
+ display:block;
+ width:85%;
+ margin:0;
+ padding-left:0
+ padding-bottom:5%;
+ 
+
+}
+
+#vid2 {
+ display:block;
+ width:85%;
+ margin:0;
+ padding-left:0;
+ padding-bottom:5%;
+ 
+}
+
+#ep {
+ display:block;
+width:85%;
+height:auto;
+padding-left:0;
+padding-bottom: 5%;
+margin:0;
+
+}
+
+.contact {
+ display:block;
+ width:85%;
+ margin:0;
+ padding-left:0;
+ padding-top:5%;
+ padding-bottom:2%;
+ 
+}
+
+.pic1 {
+ width:85%;
+}
+
+#alpha {
+
+ float:left;
+ text-align:left;
+ padding-left:0;
+ }
+ 
+ #email {
+ float:left; 
+ text-align:left;
+ font-size:100%;
+ }
+ 
+ #soundcloud {
+  text-align: left;
+  
+ }
+ 
+.contact .text{
+        padding: 0;
+        text-align: left;
+        width: 50%; /* Set the width of the positioned div */
+        color:white;
+        list-style: none;
+}
+
+}
