@@ -228,17 +228,18 @@ margin:0;
 }
 
 .contact {
-  display:block;
- width:85%;
- margin:0;
- padding-left:0;
- padding-bottom:5%;
+ display:block;
+width:85%;
+padding-left:0;
+padding-bottom: 5%;
+    padding-top:5%;
+margin:0;
  
 }
 
 .pic1 {
  display:block;
- width:100%;
+ 
  margin:0;
  padding-left:0;
 
@@ -246,7 +247,7 @@ margin:0;
 .contact .text{
         padding-right:400px;
         text-align: left;
-        max-width: 85%; /* Set the width of the positioned div */
+        max-width: 30%; /* Set the width of the positioned div */
         color:white;
         display:block;
         list-style: none;
@@ -345,7 +346,7 @@ margin:0;
 
 .pic1 {
   display:block;
- width:100%;
+
 
  margin:0;
  padding-left:0;
@@ -370,19 +371,20 @@ margin:0;
   
  }
  .contact {
-  width:85%;
-   display:block;
-
- margin:0;
- padding-left:0;
+  display:block;
+width:85%;
+padding-left:0;
+     padding-top:5%;
+padding-bottom: 5%;
+margin:0;
  
  }
 .contact .text{
         padding: 0;
         text-align: left;
         padding-right:300px;
-        width: 100%; /* Set the width of the positioned div */
-        color:white;
+        width: 50%; /* Set the width of the positioned div */
+        color: white;
         list-style: none;
 }
 
