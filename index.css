@@ -187,6 +187,7 @@ iframe {
  
  iframe {
   width:100%;
+  height:480px;
 
 
 
@@ -222,8 +223,9 @@ iframe {
 #ep {
  display:block;
 width:85%;
+height:100%;
 padding-left:0;
-padding-bottom: 10%;
+padding-bottom: 20%;
 margin:0;
 }
 
@@ -270,6 +272,8 @@ width:85%;
  display:block;
  font-size:100%;
  padding-left:5%;
+ padding-top:5%;
+  padding-bottom: 10%;
  }
  
  #soundcloud {
@@ -278,8 +282,16 @@ width:85%;
   display:block;
   text-align:left;
   padding-left:5%;
+  padding-top:10%;
+  padding-bottom: 1%;
   
  }
+ .fb-inst {
+ float:left;
+ padding-left:5%;
+ padding-top:10%;
+  padding-bottom: 1%;
+}
  
 }
 
@@ -302,6 +314,7 @@ width:85%;
  
  iframe {
   width:100%;
+  height:480px;
 
  }
  
@@ -336,9 +349,9 @@ width:85%;
 #ep {
  display:block;
 width:85%;
-height:auto;
+height:100%;
 padding-left:0;
-padding-bottom: 5%;
+padding-bottom: 20%;
 margin:0;
 
 }
@@ -366,11 +379,15 @@ margin:0;
  text-align:left;
  font-size:100%;
  padding-left:5%
+ padding-top:5%;
+  padding-bottom: 10%;
  }
  
  #soundcloud {
   text-align: left;
   padding-left:5%;
+  padding-top:2%;
+  padding-bottom: 2%;
   
  }
  .contact {
@@ -385,9 +402,14 @@ margin:0;
         padding: 0;
         text-align: left;
         padding-right:250px;
+     
         width: 50%; /* Set the width of the positioned div */
         color:white;
         list-style: none;
+}
+.fb-inst {
+ float:left;
+ padding-left:5%;
 }
 
 }
