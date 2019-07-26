@@ -223,7 +223,7 @@ iframe {
  display:block;
 width:85%;
 padding-left:0;
-padding-bottom: 5%;
+padding-bottom: 30%;
 margin:0;
 }
 
@@ -232,7 +232,7 @@ margin:0;
 width:85%;
 padding-left:0;
 padding-bottom: 5%;
-padding-top:10%;
+padding-top:30%;
 margin:0;
  
 }
@@ -338,7 +338,7 @@ width:85%;
 width:85%;
 height:auto;
 padding-left:0;
-padding-bottom: 5%;
+padding-bottom: 10%;
 margin:0;
 
 }
@@ -378,7 +378,7 @@ margin:0;
 width:85%;
 padding-left:0;
 padding-bottom: 5%;
-padding-top:10%;
+padding-top:20%;
 margin:0;
  
  }
