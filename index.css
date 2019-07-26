@@ -232,7 +232,6 @@ margin:0;
 width:85%;
 padding-left:0;
 padding-bottom: 5%;
-    padding-top:5%;
 margin:0;
  
 }
@@ -245,7 +244,7 @@ margin:0;
 
 }
 .contact .text{
-        padding-right:400px;
+        padding-right:250px;
         text-align: left;
         max-width: 30%; /* Set the width of the positioned div */
         color:white;
@@ -260,7 +259,7 @@ width:85%;
  display:block;
  float:left;
  text-align:left;
- padding-left:0;
+ padding-left:5%;
  }
  
  #email {
@@ -269,6 +268,7 @@ width:85%;
  width:85%;
  display:block;
  font-size:100%;
+ padding-left:5%;
  }
  
  #soundcloud {
@@ -276,7 +276,7 @@ width:85%;
   
   display:block;
   text-align:left;
-  padding-left:0;
+  padding-left:5%;
   
  }
  
@@ -357,24 +357,25 @@ margin:0;
 
  float:left;
  text-align:left;
- padding-left:0;
+ padding-left:5%;
  }
  
  #email {
  float:left; 
  text-align:left;
  font-size:100%;
+ padding-left:5%
  }
  
  #soundcloud {
   text-align: left;
+  padding-left:5%;
   
  }
  .contact {
   display:block;
 width:85%;
 padding-left:0;
-     padding-top:5%;
 padding-bottom: 5%;
 margin:0;
  
@@ -382,9 +383,9 @@ margin:0;
 .contact .text{
         padding: 0;
         text-align: left;
-        padding-right:300px;
+        padding-right:250px;
         width: 50%; /* Set the width of the positioned div */
-        color: white;
+        color:white;
         list-style: none;
 }
 
